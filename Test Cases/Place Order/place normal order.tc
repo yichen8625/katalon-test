@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>標準制訂單</description>
+   <name>place normal order</name>
+   <tag>normal order</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4f18b089-b00d-4ec5-ada8-1516fd73817b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85fc8703-53e9-4995-95ff-0e4a9f611b73</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05d484a3-6b1a-400d-b4f8-2b2dab4bc6a8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>748f7554-4496-4029-90c1-22eb25f1c1e3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9f6320b5-6dc7-484c-a28c-914662eb3d6a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a302dbfa-3e73-4596-8af7-a8295cb45f4b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'4242 4242 4242 4242'</defaultValue>
+      <description>信用卡卡號</description>
+      <id>85fc8703-53e9-4995-95ff-0e4a9f611b73</id>
+      <masked>false</masked>
+      <name>card_no</name>
+   </variable>
+   <variable>
+      <defaultValue>'12 / 31'</defaultValue>
+      <description>有效日期</description>
+      <id>05d484a3-6b1a-400d-b4f8-2b2dab4bc6a8</id>
+      <masked>false</masked>
+      <name>expiration_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description>檢核碼</description>
+      <id>748f7554-4496-4029-90c1-22eb25f1c1e3</id>
+      <masked>false</masked>
+      <name>ccv</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234567'</defaultValue>
+      <description>otp驗證碼</description>
+      <id>9f6320b5-6dc7-484c-a28c-914662eb3d6a</id>
+      <masked>false</masked>
+      <name>otp</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Page_service/button_payment')</defaultValue>
+      <description>付款方式</description>
+      <id>a302dbfa-3e73-4596-8af7-a8295cb45f4b</id>
+      <masked>false</masked>
+      <name>payment</name>
+   </variable>
+</TestCaseEntity>

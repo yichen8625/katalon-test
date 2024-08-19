@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>會員專區 > 登入/註冊 > 手機號碼登入</description>
+   <name>page_login (phone)</name>
+   <tag>phone_login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1e3e18b3-8144-4694-88ec-5b5b3d80a2ae</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6dfe2a66-0604-4a94-882b-dc87a4edf1b1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e30ee50-bc23-4d6c-ad46-33b9ed0c4676</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0905501851'</defaultValue>
+      <description>phone number</description>
+      <id>6dfe2a66-0604-4a94-882b-dc87a4edf1b1</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'zYMm3JE3ewkw6zafoDhejA=='</defaultValue>
+      <description>password</description>
+      <id>0e30ee50-bc23-4d6c-ad46-33b9ed0c4676</id>
+      <masked>false</masked>
+      <name>pw</name>
+   </variable>
+</TestCaseEntity>

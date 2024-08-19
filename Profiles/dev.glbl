@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>dev</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>dev 生活服務官網首頁</description>
+      <initValue>'https://dev.dailypro.com.tw/home'</initValue>
+      <name>G_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>dev 生活服務官網會員頁</description>
+      <initValue>'https://dev.dailypro.com.tw/member/accountSetting'</initValue>
+      <name>G_URL_ACCOUNT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>訂單ID</description>
+      <initValue>''</initValue>
+      <name>G_ORDER_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>訂單編號</description>
+      <initValue>''</initValue>
+      <name>G_ORDER_SN</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

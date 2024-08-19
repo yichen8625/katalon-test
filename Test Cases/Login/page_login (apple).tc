@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>會員專區 > 登入/註冊 > 手機號碼登入</description>
+   <name>page_login (apple)</name>
+   <tag>phone_login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13f99ae9-2f16-4e4d-9d9b-b4004224af5b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bf27463b-530f-4771-8a75-1d3c9cc7ffbb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a2941343-9a39-4060-8f7b-0e2cb40efbf9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0905501851'</defaultValue>
+      <description>phone number</description>
+      <id>bf27463b-530f-4771-8a75-1d3c9cc7ffbb</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'zYMm3JE3ewkw6zafoDhejA=='</defaultValue>
+      <description>password</description>
+      <id>a2941343-9a39-4060-8f7b-0e2cb40efbf9</id>
+      <masked>false</masked>
+      <name>pw</name>
+   </variable>
+</TestCaseEntity>

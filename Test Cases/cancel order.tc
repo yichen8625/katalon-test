@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>訂單列表 > 訂單詳情 > 取消訂單</description>
+   <name>cancel order</name>
+   <tag>cancel_order</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d0db6662-b406-4f1e-a3f7-b19d576df8a6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>493ad144-06a5-4f65-b070-823035676bd3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0bb6d88a-e5be-42b1-b7bd-55b557bde267</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>訂單Id</description>
+      <id>493ad144-06a5-4f65-b070-823035676bd3</id>
+      <masked>false</masked>
+      <name>orderId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>訂單編號</description>
+      <id>0bb6d88a-e5be-42b1-b7bd-55b557bde267</id>
+      <masked>false</masked>
+      <name>order_sn</name>
+   </variable>
+</TestCaseEntity>

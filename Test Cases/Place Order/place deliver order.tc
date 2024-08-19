@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>寄件訂單下單</description>
+   <name>place deliver order</name>
+   <tag>deliver order</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a0bfe0c-8a9a-42d6-a2eb-53f709c3998b</testCaseGuid>
+</TestCaseEntity>

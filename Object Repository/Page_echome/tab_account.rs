@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_account</name>
+   <tag></tag>
+   <elementGuidId>909d531d-945e-4c60-84af-442c5f5a42ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='header']/nav/menu/ul/li[6]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.header__nav-menu__list a[data-cy=&quot;header-member-setting&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bc00e217-964b-4956-9983-1d1b5f1b8c22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-badge v-badge--dot v-badge--left theme--light</value>
+      <webElementGuid>52ca3f4c-7f25-4c1d-8ceb-5ead47187239</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          會員專區
+          </value>
+      <webElementGuid>4d8719dc-3f9f-49ae-ae38-999c67f8db56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/nav[@class=&quot;menu&quot;]/menu[@class=&quot;header__nav-menu&quot;]/ul[@class=&quot;header__nav-menu__list&quot;]/li[@class=&quot;flex-end member-setting header__nav-menu__list__item&quot;]/a[@class=&quot;label header__nav-menu__list__item__link&quot;]/span[@class=&quot;v-badge v-badge--dot v-badge--left theme--light&quot;]</value>
+      <webElementGuid>cdd8e349-efb0-4d17-8c5c-d1dd1aee80dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='header']/nav/menu/ul/li[6]/a/span</value>
+      <webElementGuid>8ba35f76-b5c0-45f9-8832-ffb4c66ecb69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='關於我們'])[1]/following::span[1]</value>
+      <webElementGuid>718bc504-d0c7-4e9c-8c7f-945073e4c383</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='生活情報站'])[1]/following::span[1]</value>
+      <webElementGuid>88420361-50cd-49fe-8158-9f820dde3231</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='會員中心'])[1]/preceding::span[3]</value>
+      <webElementGuid>3e585759-53e7-4e77-85a6-e320579cd188</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單查詢'])[1]/preceding::span[3]</value>
+      <webElementGuid>f8b2df56-6f2f-498c-8c12-111260e33723</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='會員專區']/parent::*</value>
+      <webElementGuid>b23a1e62-7ca7-4feb-84b7-a930c051da71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span</value>
+      <webElementGuid>2bc1cfa7-e23e-4eda-9fe5-bb36b4a56611</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+          會員專區
+          ' or . = '
+          會員專區
+          ')]</value>
+      <webElementGuid>0bd3f3bd-e7fc-42dc-8d44-58a315c906e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
