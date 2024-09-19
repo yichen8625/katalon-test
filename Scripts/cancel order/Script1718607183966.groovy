@@ -17,12 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://dev.dailypro.com.tw/member/orderList')
+WebUI.navigateToUrl('https://www.dailypro.com.tw/member/orderList')
 
 //點擊查看訂單詳情
 WebUI.click(findTestObject('Object Repository/Page_order/button_order-detail'))
 
 WebUI.waitForPageLoad(1)
+
 WebUI.delay(1)
 
 //下滑至取消訂單處
@@ -33,12 +34,17 @@ WebUI.click(findTestObject('Object Repository/Page_order/button_cancel-order'))
 
 //輸入取消原因
 WebUI.click(findTestObject('Object Repository/Page_order/button_other'))
+
 WebUI.setText(findTestObject('Object Repository/Page_order/input_cancel-reason'), 'Test')
 
 //完成取消訂單
 WebUI.click(findTestObject('Object Repository/Page_order/button_cancel'))
-WebUI.delay(3)
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\EcWeb - create and cancel order\\螢幕截圖\\取消訂單\\cancel.png')
+
+WebUI.delay(5)
+
+WebUI.setViewPortSize(1920, 1080)
+
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Test\\EcWeb - create and cancel order\\螢幕截圖\\Place Order')
 
 WebUI.delay(null, FailureHandling.STOP_ON_FAILURE)
 

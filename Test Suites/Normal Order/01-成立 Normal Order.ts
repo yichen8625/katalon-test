@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>New Test Suite</name>
+   <name>01-成立 Normal Order</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>285f16a0-e50a-422a-ab34-d31b1cf3a4da</testSuiteGuid>
+   <testSuiteGuid>cafb7cec-ac59-4597-9cc6-0b1885d80e31</testSuiteGuid>
    <testCaseLink>
-      <guid>e0fcd835-f9c2-43cd-a288-4a1216dba06e</guid>
+      <guid>24db23dd-769f-4054-93ce-7204b19d3015</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/page_login (phone)</testCaseId>
@@ -21,20 +21,20 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6dfe2a66-0604-4a94-882b-dc87a4edf1b1</variableId>
+         <variableId>bf27463b-530f-4771-8a75-1d3c9cc7ffbb</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0e30ee50-bc23-4d6c-ad46-33b9ed0c4676</variableId>
+         <variableId>a2941343-9a39-4060-8f7b-0e2cb40efbf9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b37dd303-a461-4ee3-b9b4-3202c2ef44ff</guid>
+      <guid>97b689de-fd00-4909-a6c8-ea7068565aa5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Place Order/place normal order</testCaseId>
+      <testCaseId>Test Cases/Place Order/normal order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -65,25 +65,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>a302dbfa-3e73-4596-8af7-a8295cb45f4b</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3ff6442e-72e6-4f4f-86a9-7bec4e6a1700</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/cancel order</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>493ad144-06a5-4f65-b070-823035676bd3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0bb6d88a-e5be-42b1-b7bd-55b557bde267</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

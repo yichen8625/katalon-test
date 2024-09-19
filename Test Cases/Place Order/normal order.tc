@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>標準制訂單</description>
-   <name>place normal order</name>
+   <name>normal order</name>
    <tag>normal order</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

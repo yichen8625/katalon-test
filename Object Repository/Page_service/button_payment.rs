@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.page.page-3 section.option.payment div[role=&quot;radiogroup&quot;] > div:nth-child(3)</value>
+         <value>.page.page-3 section.option.payment div[role=&quot;radiogroup&quot;] > div:nth-child(1)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

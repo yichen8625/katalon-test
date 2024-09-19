@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>選購品項</description>
-   <name>button_item</name>
+   <description></description>
+   <name>button_addressee</name>
    <tag></tag>
-   <elementGuidId>f42ca6c4-b26d-4d06-9b90-f1745d8ae9c4</elementGuidId>
+   <elementGuidId>0b1d9755-cde2-4ed1-a63d-2301b6fdceb8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>section.option.price div:nth-child(6) footer button</value>
+         <value>section.option.recipient.region span button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

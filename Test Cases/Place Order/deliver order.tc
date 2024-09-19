@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>寄件訂單下單</description>
-   <name>place deliver order</name>
+   <name>deliver order</name>
    <tag>deliver order</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

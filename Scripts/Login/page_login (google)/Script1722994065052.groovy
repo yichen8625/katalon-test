@@ -46,3 +46,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_login/google/input
 'click 下一步 btn'
 WebUI.click(findTestObject('Object Repository/Page_login/google/button_next2'))
 
+/*
+WebUI.click(findTestObject(), test, 1000)
+
+WebUI.
+*/

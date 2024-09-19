@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>prod</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>prod 生活服務官網</description>
+      <initValue>'https://www.dailypro.com.tw/home'</initValue>
+      <name>G_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>prod 生活服務官網會員頁</description>
+      <initValue>'https://www.dailypro.com.tw/member/accountSetting'</initValue>
+      <name>G_URL_ACCOUNT</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

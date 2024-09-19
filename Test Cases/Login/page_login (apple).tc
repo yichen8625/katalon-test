@@ -5,30 +5,30 @@
    <tag>phone_login</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>13f99ae9-2f16-4e4d-9d9b-b4004224af5b</testCaseGuid>
+   <testCaseGuid>1e3e18b3-8144-4694-88ec-5b5b3d80a2ae</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>bf27463b-530f-4771-8a75-1d3c9cc7ffbb</variableId>
+      <variableId>6dfe2a66-0604-4a94-882b-dc87a4edf1b1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a2941343-9a39-4060-8f7b-0e2cb40efbf9</variableId>
+      <variableId>0e30ee50-bc23-4d6c-ad46-33b9ed0c4676</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'0905501851'</defaultValue>
       <description>phone number</description>
-      <id>bf27463b-530f-4771-8a75-1d3c9cc7ffbb</id>
+      <id>6dfe2a66-0604-4a94-882b-dc87a4edf1b1</id>
       <masked>false</masked>
       <name>phone</name>
    </variable>
    <variable>
       <defaultValue>'zYMm3JE3ewkw6zafoDhejA=='</defaultValue>
       <description>password</description>
-      <id>a2941343-9a39-4060-8f7b-0e2cb40efbf9</id>
+      <id>0e30ee50-bc23-4d6c-ad46-33b9ed0c4676</id>
       <masked>false</masked>
       <name>pw</name>
    </variable>

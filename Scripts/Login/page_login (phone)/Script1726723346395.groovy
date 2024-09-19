@@ -43,4 +43,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_login/input_pw'),p
 'click 登入 btn'
 WebUI.click(findTestObject('Object Repository/Page_login/button_login'))
 
+
 // Test add a link

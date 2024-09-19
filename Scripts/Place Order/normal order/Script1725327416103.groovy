@@ -17,20 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'導航至[QA自動化測試_多金流_現金 (勿動)]'
-WebUI.navigateToUrl('https://dev.dailypro.com.tw/category/279/623/')
+'導航至【QA回歸】預收全額'
+WebUI.navigateToUrl('https://www.dailypro.com.tw/category/122/399/')
 
 WebUI.waitForPageLoad(2)
 
 '選取品項A'
 WebUI.click(findTestObject('Object Repository/Page_service/button_item'))
 
+WebUI.click(findTestObject('Object Repository/Page_service/button_more'))
+
 '新增至購物清單'
 WebUI.click(findTestObject('Object Repository/Page_service/button_addcart'))
 
 '選擇預期服務日期與時段'
-WebUI.waitForAngularLoad(5)
-
 WebUI.scrollToPosition(0, 422)
 
 WebUI.click(findTestObject('Object Repository/Page_service/checkbox_date'))
@@ -53,8 +53,21 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_service/input_name'), Keys
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_service/input_name'), Keys.chord(Keys.BACK_SPACE))
 
-//輸入訂購人
 WebUI.setText(findTestObject('Object Repository/Page_service/input_name'), 'Noah')
+
+'配達資訊'
+WebUI.click(findTestObject('Object Repository/Page_service/button_addressee'))
+
+WebUI.click(findTestObject('Object Repository/Page_service/button_addressee_checkbox'))
+
+WebUI.click(findTestObject('Object Repository/Page_service/button_addressee_confirm'))
+
+'服務位置'
+WebUI.click(findTestObject('Object Repository/Page_service/checkbox_community'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_service/checkbox_tablet'))
 
 'Email'
 WebUI.scrollToElement(findTestObject('Object Repository/Page_service/input_email'), 2)
@@ -106,6 +119,14 @@ WebUI.click(findTestObject('Object Repository/Page_service/button_orderconfirm')
 'Pay order popup'
 WebUI.waitForPageLoad(5)
 
+WebUI.setViewPortSize(1920, 1080)
+
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Test\\EcWeb - create and cancel order\\螢幕截圖\\取消訂單')
+
+WebUI.closeBrowser()
+/*'前往付款'
 WebUI.click(findTestObject('Object Repository/Page_service/button_pay'))
 
 WebUI.waitForPageLoad(4)
@@ -115,7 +136,7 @@ WebUI.setViewPortSize(1920, 1080)
 WebUI.delay(5)
 
 WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\EcWeb - create and cancel order\\螢幕截圖\\完成付款\\create.png')
-
+*/
 
 /*
 //API ElementPropertyValue Test
@@ -127,5 +148,4 @@ def response = WS.sendRequest(findTestObject('OrderList'))
 WS.getElementPropertyValue(response, 'order_id'[0])
 */
 
-WebUI.datetransfer
 
